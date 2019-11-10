@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/_LayoutPage1.cshtml";
+}
+
+<div class="header-w3l">
+    <h1>
+        <span>S</span>ign<span>I</span>n <span>F</span>orm
+    </h1>
+</div>
+<!--//header-->
+<div class="main-content-agile">
+    <div class="sub-main-w3">
+        <h2>Sign In</h2>
+        <form action="Verify" method="post">
+            <label>Username</label>
+            <div class="pom-agile">
+                <span class="fa fa-user-o" aria-hidden="true"></span>
+                <input placeholder="Username" name="Name" class="user" type="text" required="">
+            </div>
+            <label>Password</label>
+            <div class="pom-agile">
+                <span class="fa fa-key" aria-hidden="true"></span>
+                <input placeholder="Password" name="Password" class="pass" type="password" required="">
+            </div>
+            <div class="sub-w3l">
+                <div class="sub-agile">
+                    <input type="checkbox" id="brand1" value="">
+                    <label for="brand1">
+                        <span></span>Keep me Signed in
+                    </label>
+                </div>
+                <a href="#">Forgot Password?</a>
+                <div class="clear"></div>
+            </div>
+            <div class="right-w3l">
+                <input type="submit" value="Signin">
+            </div>
+        </form>
+    </div>
+</div>
+
+
